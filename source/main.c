@@ -89,12 +89,12 @@ int main(int argc, char **argv)
             switch (cursor)
             {
             case UP_AMS:
-                if (yesNoBox(cursor, 390, 250, "Update Neutos?") == YES)
+                if (yesNoBox(cursor, 390, 250, "Actualizar NeXT?") == YES)
                     update_ams_hekate(AMS_URL, AMS_OUTPUT, cursor);
                 break;
 
             case REBOOT_PAYLOAD:
-                if (yesNoBox(cursor, 390, 250, "Reboot to Payload?") == YES)
+                if (yesNoBox(cursor, 390, 250, "Ir a Bootmenu?") == YES)
                     reboot_payload("/atmosphere/reboot_payload.bin");
                 break;
             }
