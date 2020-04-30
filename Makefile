@@ -37,8 +37,8 @@ include $(DEVKITPRO)/libnx/switch_rules
 #   of a homebrew executable (.nro). This is intended to be used for sysmodules.
 #   NACP building is skipped as well.
 #---------------------------------------------------------------------------------
-APP_TITLE   := NEUTOS-Updater
-APP_AUTHOR  := borntohonk
+APP_TITLE   := NeXT-Updater
+APP_AUTHOR  := Vampi
 APP_VERSION := 1.0.0
 
 TARGET		:=	$(notdir $(CURDIR))
