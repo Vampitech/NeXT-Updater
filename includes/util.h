@@ -2,8 +2,8 @@
 #define _UTIL_H_
 
 #define ROOT                    "/"
-#define APP_PATH                "/switch/neutos-updater/"
-#define AMS_OUTPUT              "/switch/neutos-updater/ams.zip"
+#define APP_PATH                "/switch/next-updater/"
+#define AMS_OUTPUT              "/switch/next-updater/ams.zip"
 
 #define YES                     10
 #define NO                      20
