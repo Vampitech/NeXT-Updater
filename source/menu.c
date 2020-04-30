@@ -5,7 +5,7 @@
 #include "touch.h"
 #include "util.h"
 
-#define APP_VERSION "NEUTOS Updater: 1.0.0"
+#define APP_VERSION "NeXT Updater: 1.0.0"
 
 void refreshScreen(char loaded)
 {
@@ -39,11 +39,11 @@ void printOptionList(int cursor)
 {
     refreshScreen(/*loaded=*/1);
 
-    char *option_list[]      = {    "Full NEUTOS update (recommended)", \
-                                    "Reboot (reboot to payload)" };
+    char *option_list[]      = {    "Actualizacion Completa de NeXT (recomendado)", \
+                                    "Reiniciar a Bootmenu" };
 
-    char *description_list[] = {    "Update everything for NEUTOS", \
-                                    "Reboots switch (recommended after updating)" };
+    char *description_list[] = {    "Instala la version mas reciente de NeXT", \
+                                    "Reinicia la switch (recomendado tras actualizar)" };
 
     SDL_Texture *textureArray[] = { ams_icon, reboot_icon };
 
