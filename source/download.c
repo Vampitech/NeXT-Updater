@@ -7,7 +7,7 @@
 #include "menu.h"
 #include "util.h"           // for ON / OFF defines.
 
-#define API_AGENT           "borntohonk"
+#define API_AGENT           "Vampitech"
 #define DOWNLOAD_BAR_MAX    500
 
 struct MemoryStruct
